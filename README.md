@@ -2,6 +2,8 @@
 
 Check any URL — or a bulk list — to instantly discover whether it supports the **X402 HTTP payment protocol**. For every X402-enabled endpoint, the actor extracts the price, currency, network, payment address, and full structured payment options.
 
+[![Watch our walkthrough video](https://img.youtube.com/vi/rdPnwRh9a2s/maxresdefault.jpg)](https://www.youtube.com/watch?v=rdPnwRh9a2s)
+
 ## What is X402?
 
 x402 is an open standard that brings native payments to the internet. It fills the gap the web was built without — making value exchange between clients and servers as natural as any other request. The result: scalable, agentic payment economies that work for everyone.
