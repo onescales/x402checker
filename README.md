@@ -14,6 +14,10 @@ x402 is an open standard that brings native payments to the internet. It fills t
 - Handles both the modern `accepts` / `paymentRequirements` array format and legacy single-header formats
 - Returns one structured dataset row per URL: payment options, networks, amounts, tokens, pay-to addresses, and error info
 
+## Demo / Try it Out
+
+- Register a free Apify account and try it out at https://apify.com/onescales/x402-checker?fpr=s9de8
+
 ## Supported Networks & Coins
 
 - **Stablecoins:** USDC, USDT, DAI, EURC, PYUSD, USDG
