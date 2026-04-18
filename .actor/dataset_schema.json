@@ -1,0 +1,30 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "X402 Results",
+            "transformation": {
+                "fields": ["url", "supportsX402", "statusCode", "x402Version", "description", "acceptsCount", "acceptNetworks", "acceptAmounts", "acceptSymbols", "acceptPayTos", "accepts", "error", "checkedAt"]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "url":            { "label": "URL",             "format": "link" },
+                    "supportsX402":   { "label": "X402?" },
+                    "statusCode":     { "label": "Status" },
+                    "x402Version":    { "label": "Version" },
+                    "description":    { "label": "Description" },
+                    "acceptsCount":   { "label": "# Options" },
+                    "acceptNetworks": { "label": "Networks",  "type": "array", "items": { "type": "string" } },
+                    "acceptAmounts":  { "label": "Amounts",   "type": "array", "items": { "type": "string" } },
+                    "acceptSymbols":  { "label": "Tokens",    "type": "array", "items": { "type": "string" } },
+                    "acceptPayTos":   { "label": "Pay Tos",   "type": "array", "items": { "type": "string" } },
+                    "accepts":        { "label": "Full Options" },
+                    "error":          { "label": "Error" },
+                    "checkedAt":      { "label": "Checked At" }
+                }
+            }
+        }
+    }
+}
