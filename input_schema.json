@@ -1,0 +1,15 @@
+{
+    "title": "X402 Checker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "urls": {
+            "title": "URLs to check",
+            "type": "array",
+            "description": "One or more URLs to check for X402 payment protocol support.",
+            "editor": "requestListSources",
+            "prefill": [{ "url": "https://x402.org/protected" }]
+        }
+    },
+    "required": ["urls"]
+}

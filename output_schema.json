@@ -1,0 +1,13 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "X402 Checker Output",
+    "description": "X402 payment protocol check results. One row per URL checked.",
+    "properties": {
+        "x402Results": {
+            "type": "string",
+            "title": "X402 Checker Results",
+            "description": "All checked URLs with X402 support status and full payment details.",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

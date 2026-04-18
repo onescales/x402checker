@@ -1,0 +1,15 @@
+{
+    "actorSpecification": 1,
+    "name": "x402-checker",
+    "title": "X402 Checker",
+    "description": "Single or bulk check URLs to see if they support X402 payment protocol and extract price, currency, network, and payment endpoint details.",
+    "version": "1.0",
+    "buildTag": "latest",
+    "environmentVariables": {},
+    "dockerfile": "../Dockerfile",
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "storages": {
+        "dataset": "./dataset_schema.json"
+    }
+}
